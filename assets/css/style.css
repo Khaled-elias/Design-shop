@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+/* font-family: 'Karla', sans-serif; */
+/* color: #323A45 / #848484 */
+
+
+body{
+    margin-left:  10em;
+    }
+
+nav{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-between;
+}
+
+h2:hover {
+    color:#848484 ;
+}
+a:hover{
+    color:#848484 ;
+}
+
+nav ul{
+ display: flex;
+ /* align-items: center; */
+ width: 35%;
+
+ 
+}
+nav a{
+   color:  #323A45;
+   margin-left: 2em;
+   text-decoration: none;
+   
+    
+}
+
+nav li{
+    list-style: none;
+}
+nav h2{
+    color:  #323A45;
+    font-family: 'Karla', sans-serif;
+    padding-left: 5em;
+}
+
+
+
+.big{
+    margin-top: 2em;
+    /* margin-left: 7em; */
+    
+}
+.big img{
+    width: 90%;
+}
+
+.big article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.big span{
+color:#848484 ;
+
+}
+.big h4{
+    font-family: 'Karla', sans-serif;
+    padding-right: 12em;
+}
+.big p {
+    line-height: 1.5em;
+   
+}
+
+
+
+
+
+.secB{
+    margin-top: 2em;
+   
+    display: flex;
+    justify-content: space-between;
+    width: 91%;
+    
+}
+.secB img {
+    width: 95%;
+    margin-right: 5em ;
+}
+
+.secB  div article{
+    display: flex;
+    justify-content: space-between;
+    width: 130%;
+}
+
+.secB span{
+color:#848484 ;
+
+}
+.secB h4{
+    padding-right: 12em;
+}
+.secB p {
+    line-height: 1.5em;
+  
+}
+
+img:hover{
+    opacity: 0.2;
+}
+ 
+
+/* _______________footer __________________*/
+
+    footer{
+        padding-top: 4em;
+    }
+   
+   
+   .secF a{
+      color:  #323A45;
+      margin-left: 13em;
+      text-decoration: none;
+      font-family: 'Karla', sans-serif;
+    }
+   
+   .secF li{
+       list-style: none;
+   
+    }
+
+   .secf h4{
+       color:  #323A45;
+       font-family: 'Karla', sans-serif;
+    }
+
+
+
+   .secF ul{
+    display: flex;
+    /* align-items: center; */
+    width: 75%;
+    }
+
+
+   .secF{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-between;
+    }
+
+
+
+
+
+    .secF2 a{
+        color:  #323A45;
+        
+        text-decoration: none;
+       
+      }
+     
+     .secF2 li{
+         list-style: none;
+         margin-left: 5em;
+         text-align: left;
+      }
+  
+     .secf2 span{
+         color:  #323A45;
+         font-family: 'Karla', sans-serif;
+         
+      }
+  
+  
+  
+     .secF2 ul{
+      display: flex;
+      /* align-items: center; */
+      width: 75%;
+      }
+  
+  
+     .secF2{
+      display: flex;
+      padding-top: 2em;
+      justify-content: space-between;
+      }
+
+      .sp{
+          font-size: 16px;
+          font-family: 'Karla', sans-serif;
+      }
+
+
+      .ppp2{
+         
+          margin-left: 6em;
+          margin-right: 1.2em;
+      }
+
+      .ppp1{
+          padding-left: 8em;
+      }
+
+      .afooter{
+        font-family: 'Karla', sans-serif;
+      }
+
+      .divAA{
+          display: flex;
+      }
+    
+      .divAA p{
+          padding-left: 1.5rem;
+          color: #848484;
+      }
+      .divAA p:nth-child(1){
+          padding-left: 0rem;
+      }
+
+
+      @media only screen and (max-width: 600px) {
+        body {
+            margin-left: 1em;
+        }
+        main{
+            width: 93%;
+        }
+        
+        
+        
+        
+        
+        nav ul{
+         
+         
+         width: 28%;
+        
+         
+        }
+        nav a{
+           margin-left: 4em;
+           
+           
+            
+        }
+        
+       
+         nav h2{
+             padding-left: 1em;
+             font-size: 18px;
+         }
+         
+         
+         .big img{
+             width: 160%;
+             margin-left: 0;
+         }
+
+         .big article{
+            display: flex;
+            justify-content: space-between;
+            width: 180%;
+        }
+        
+        .big h4{
+            font-family: 'Karla', sans-serif;
+            padding-right: 7em;
+        }
+         
+         .secB{
+       
+           
+             width:185%
+         }
+
+         .secB img {
+             width: 60%;
+        
+             
+         }
+         
+         .secB  div article{
+            
+             width: 119%;
+         }
+         
+         .secB h4{
+            padding-right: -2em;
+         
+         }
+         .secB p {
+            line-height: 1.5em;
+          
+        }
+       
+
+        .secF a{
+              
+              
+               margin-left:0 ;
+            
+             }
+
+             .secF li{
+                 margin-left: 3.4em;
+             }
+        
+            .secF ul{
+            
+             width:30%;
+             }
+        
+            
+              .secF2 li{
+                 
+                  margin-left: 1em;
+                  
+               }
+               
+           
+              .secF2 ul{
+
+               width: 50%;
+               }
+        
+              
+         
+
+               
+             
+              
+    }
+    
+    @media only screen and (max-width: 760px ) {
+       
+        main{
+            width: 98%;
+        }
+        
+        
+        
+        
+        
+        nav ul{
+         
+         
+         width: 12%;
+        
+         
+        }
+        nav a{
+           margin-left: 4em;
+           
+           
+            
+        }
+        
+       
+         nav h2{
+             padding-left: 1em;
+             font-size: 18px;
+         }
+         
+         
+         .big img{
+             width: 160%;
+             margin-left: 0;
+         }
+
+         .big article{
+            display: flex;
+            justify-content: space-between;
+            width: 180%;
+        }
+        
+        .big h4{
+            font-family: 'Karla', sans-serif;
+            padding-right: 7em;
+        }
+         
+         .secB{
+       
+           
+             width:185%
+         }
+
+         .secB img {
+             width: 60%;
+        
+             
+         }
+         
+         .secB  div article{
+            
+             width: 115%;
+         }
+         
+       
+         
+        .secF a{
+              
+              
+            margin-left:0 ;
+         
+          }
+
+          .secF li{
+              margin-left: 4em;
+          }
+     
+         .secF ul{
+         
+          width:28%;
+          }
+     
+         
+           .secF2 li{
+              
+               margin-left: 1.8em;
+               
+            }
+            
+        
+           .secF2 ul{
+
+            width: 50%;
+            }
+     
+       
+
+    }
+    
+    @media only screen and (max-width: 980px ) {
+        main{
+            width: 80%;
+        }
+        body{
+            margin-left: 1em;
+        }
+        .big img{
+            width: 120%;
+            margin-left: 0;
+        }
+
+        .big article{
+           display: flex;
+           justify-content: space-between;
+           width: 130%;
+       }
+       
+       .big h4{
+           font-family: 'Karla', sans-serif;
+           padding-right: 7em;
+       }
+        
+       
+       
+            .secB{
+          
+              
+               width: 120%;
+            }
+   
+            .secB img {
+                width: 98%;
+           
+                
+            }
+            
+            .secB  div article{
+               
+                width: 155%;
+            }
+            
+          
+            .secB p {
+               line-height: 1.5em;
+             
+           }
+   
+           .secF a{
+                 
+                 
+               margin-left:0 ;
+            
+             }
+   
+             .secF li{
+                 margin-left: 4.6em;
+             }
+        
+            .secF ul{
+            
+             width: 55%;
+             }
+        
+            
+              .secF2 li{
+                 
+                  margin-left: 0.1em;
+                  
+               }
+               
+           
+              .secF2 ul{
+   
+               width: 80%;
+               }
+         
+    }
+    
+    @media only screen and (max-width: 1260px ) {
+        main{
+            width: 90%;
+            margin-left: 6em;
+        }
+        body{
+            margin-left:2em;
+        }
+        nav ul{
+         
+         
+            width: 40%;
+           
+            
+           }
+           .big h4{
+            font-family: 'Karla', sans-serif;
+            padding-right: 8em;
+        } 
+        .secB h4{
+            font-family: 'Karla', sans-serif;
+            padding-right: 8em;
+        }
+        footer{
+            margin-left: 6em;
+        }
+
+        .secF a{
+                 
+                 
+            margin-left:0 ;
+         
+          }
+
+          .secF li{
+              margin-left: 7.6em;
+          }
+     
+         .secF ul{
+         
+          width: 72%;
+          }
+     
+         
+           .secF2 li{
+              
+               margin-left: 0.1em;
+               
+            }
+            
+        
+           .secF2 ul{
+
+            width: 80%;
+            }
+        
+    }
